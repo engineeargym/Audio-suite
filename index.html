@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=TU_ID_DE_ADSENSE" 
+     crossorigin="anonymous"></script>
     <title>Audio Master Trainer V6.0 - Multi-Node Update</title>
     <style>
         :root { --neon: #00ffcc; --danger: #ff4444; --bg: #0d0d0f; --card: #1a1a20; --border: #33333d; --warning: #ffaa00; }
@@ -148,6 +151,13 @@
 <body>
 
     <div class="main-container">
+<section style="max-width:900px; margin:20px auto; color:#aaa; font-size:14px; line-height:1.6;">
+<h2>Entrenamiento Auditivo Profesional</h2>
+<p>
+Este entrenamiento está diseñado para mejorar tu capacidad de identificar frecuencias,
+ecualización y panorama estéreo, habilidades clave en mezcla y masterización.
+</p>
+</section>
         <header>
             <h1>MASTER AUDIO TRAINER <span style="font-weight: 300; font-size: 1rem;">V6.0</span></h1>
             <p style="font-size: 0.9rem; color: #aaa;">Ahora con ejercicios Multi-banda y mayores tolerancias.</p>
@@ -1124,5 +1134,56 @@ minus.onmouseleave = () => clearHighlight();
         </p>
     </div>
 </section>
+<footer style="margin-top:40px; padding:20px; text-align:center; font-size:12px; color:#777;">
+    <a href="#privacy" style="color:#00ffcc; margin:0 10px;">Política de Privacidad</a>
+    <a href="#terms" style="color:#00ffcc; margin:0 10px;">Términos</a>
+    <a href="#cookies" style="color:#00ffcc; margin:0 10px;">Cookies</a>
+    <a href="mailto:amaury.proaudio@gmail.com" style="color:#00ffcc; margin:0 10px;">Contacto</a>
+</footer>
+<section id="privacy" style="padding:20px; font-size:12px; color:#aaa;">
+<h3>Política de Privacidad</h3>
+<p>Este sitio utiliza Google AdSense, que puede usar cookies para mostrar anuncios personalizados.</p>
+</section>
+
+<section id="terms" style="padding:20px; font-size:12px; color:#aaa;">
+<h3>Términos y Condiciones</h3>
+<p>Este sitio es una herramienta educativa de entrenamiento auditivo.</p>
+</section>
+
+<section id="cookies" style="padding:20px; font-size:12px; color:#aaa;">
+<h3>Cookies</h3>
+<p>Usamos cookies para mejorar la experiencia y mostrar publicidad relevante.</p>
+</section>
+<div id="cookieBanner" style="
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#111;
+color:#fff;
+padding:15px;
+text-align:center;
+font-size:12px;
+z-index:9999;
+">
+Este sitio usa cookies para mejorar tu experiencia.
+<button onclick="acceptCookies()" style="margin-left:10px;">
+Aceptar
+</button>
+</div>
+
+<script>
+function acceptCookies(){
+    document.getElementById('cookieBanner').style.display = 'none';
+    localStorage.setItem('cookiesAccepted', 'true');
+}
+
+window.addEventListener('load', function(){
+    if(localStorage.getItem('cookiesAccepted')){
+        document.getElementById('cookieBanner').style.display = 'none';
+    }
+});
+</script>
 </body>
+
 </html>
